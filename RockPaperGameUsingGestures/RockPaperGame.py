@@ -11,7 +11,7 @@ import tensorflow as tf
 camera = cv2.VideoCapture(0)
 
 # Loading the pre-trained model : keras_model.h5
-mymodel = tf.keras.models.load_model('keras_model.h5')
+mymodel = tf.keras.models.load_model("RockPaperGameUsingGestures\keras_model.h5")
 
 # Infinite loop
 while True:
